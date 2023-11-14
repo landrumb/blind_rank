@@ -1,7 +1,7 @@
 # blind_rank
 ![An image of the interface](blind_rank_example.jpg)
 
-A simple Python script for ergonomic and fast blind ranking of sets of generations in the terminal. Supports concurrent ranking by multiple annotators with automatic merging of results. This was originally written to evaluate generations from models for formality style transfer, but it can be used for any task where you want to rank a set of generations without knowing which model produced each generation.
+A simple Python script for ergonomic and fast blind ranking of sets of generations in the terminal. Supports concurrent ranking by multiple annotators with automatic merging of results. This was originally written to evaluate generations from models for formality style transfer (see example data), but it can be used for any task where you want to rank a set of generations without knowing which model produced each generation.
 
 Wonky things can happen if your terminal window is too small, so make sure it's big enough to display the full prompt and set of generations. Assuming you use the CSV input method, this code is robust to generations and inputs with newlines, but this could significantly increase the height of the terminal window required.
 
