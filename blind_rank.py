@@ -144,7 +144,7 @@ class Ranker(Printer):
         output = '\r'
         for i, (_, string) in enumerate(self.elements):
             if i == self.active_index:
-                output += BOLD_TEXT
+                output += CURSOR_COLOR
             output += f"{i+1}: "
             if i == self.active_index and self.selected:
                 output += SELECTED_COLOR
