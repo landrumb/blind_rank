@@ -83,7 +83,8 @@ BLUE_TEXT = '\033[96m'
 BOLD_TEXT = '\033[1m'
 END_COLOR = '\033[0m'
 
-SELECTED_COLOR = RED_TEXT
+SELECTED_COLOR = BLUE_TEXT
+CURSOR_COLOR = BOLD_TEXT
 
 models = [short[:-4] for short in os.listdir(args.input_dir)]
 if args.csv:
